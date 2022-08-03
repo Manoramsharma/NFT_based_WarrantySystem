@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@100;300;400;700&display=swap");
+.product-page{
+    background-color: #041C32;
+    margin-top: 8%;
+    color : white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.productContainer{
+    display: flex;
+    justify-content: space-around;
+}
+.rightContainer{
+    width: 50%;
+    font-family: "Poppins", sans-serif;
+}
+h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+    color : #ECB365;
+    font-size: 2rem;
+}
+.description-product{
+    width : 70%;
+}
+.btn-shopnow{
+    margin-top: 4%;
+    padding : 1%;
+    width : 20%;
+    border-radius : 14px;
+    background-color : #ECB365;
+    border : 1px solid #ecb365;
+    font-size: 1.3rem;
+}
+.btn-shopnow:hover{
+    background-color : transparent;
+    color : #ECB365;
+    border : 1px solid #ecb365;
+}
+.line{
+    background-color : white;
+    width : 90%;
+    height : 1.5px;
+    margin-top: 15%;
+}
+.product-id {
+    margin-top: 3%;
+    font-size : 1.5rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+.coupon-field{
+    padding : 1%;
+    border-radius: 14px;
+    width : 50%;
+}
+.form-buy{
+    display: flex;
+    flex-direction: column;
+}

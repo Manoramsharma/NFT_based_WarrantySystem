@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@100;300;400;700&display=swap');
+.cardContainer{
+    display : flex;  
+    flex-direction: column;
+    justify-content: space-around;
+    width : 100%;
+    cursor: pointer;
+}
+.cardImage{
+    height: 260px;
+    width : 240px;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    margin-top:5%;
+}
+.productCost{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+}
